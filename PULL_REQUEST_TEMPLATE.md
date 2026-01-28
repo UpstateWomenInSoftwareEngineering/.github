@@ -4,7 +4,8 @@
 <!-- PR TYPE: check one -->
 - [ ] Feature
 - [ ] Bugfix
-- [ ] Refactor/Chore
+- [ ] Refactor
+- [ ] Maintenance
 - [ ] Docs
 
 ## 🥅 Goal (features only)
@@ -47,8 +48,9 @@ What changed and why this works:
 <!-- Before/after. No PHI/PII. -->
 
 ## ♿ Accessibility
-- [ ] Keyboard + SR paths OK
-- [ ] Focus states & contrast OK
+- [ ] Keyboard navigation paths OK
+- [ ] Focus states visible and properly styled
+- [ ] Color contrast meets WCAG standards (for design/UX updates)
 
 ## 🔒 Security & Privacy
 - [ ] No secrets committed
@@ -56,7 +58,8 @@ What changed and why this works:
 - [ ] Authz/authn flows unaffected or tested
 
 ## 🚀 Performance / Observability
-- [ ] No heavy payloads or obvious jank
+- [ ] No heavy payloads or obvious jank (page load time < 5 seconds)
+- [ ] TTL (Time To Live): max-age=31536000 ex = *1 yr (if applicable)
 - [ ] Logs/metrics/traces updated if needed
 
 ## 📦 Release Impact
